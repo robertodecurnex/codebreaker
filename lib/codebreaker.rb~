@@ -7,3 +7,15 @@
 # Visit http://www.pragmaticprogrammer.com/titles/achbd for more book information.
 #---
 require 'codebreaker/game'
+
+module Codebreaker 
+  class Game
+    def initialize(output) 
+    end
+    
+    def start
+       @output.puts "Welcome to Codebreaker!"
+    end
+  end
+end
+

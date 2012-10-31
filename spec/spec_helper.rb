@@ -6,13 +6,4 @@
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/achbd for more book information.
 #---
-module Codebreaker
-  class Game
-    def initialize(output)
-      @output = output
-    end
-    def start
-      @output.puts "test"
-    end
-  end
-end
+require 'codebreaker'
